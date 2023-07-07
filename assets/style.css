@@ -71,6 +71,11 @@ body {
 	width: 100%;
 
 }
+
+img {
+	height:auto !important;
+	max-width: 100%;
+}
 #about-me {
 	flex: 2
 }
@@ -90,9 +95,9 @@ body {
 	font-size: 14px;
 }
 
-#gallery {
-	/*	min-height: 100vh; */
-}
+/* #gallery {
+		min-height: 100vh;
+} */
 .title{
 	text-align: center;
 	padding-block: 2em;

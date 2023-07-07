@@ -65,8 +65,10 @@
 	<meta property="og:locale" content="fr_FR"/>
 
 	<!-- Stylesheets and fonts -->
-	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
-	<link rel="stylesheet" href="./assets/style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+	<!-- <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css"> -->
+
+	<link rel="stylesheet" href="./assets/style.min.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
@@ -80,7 +82,7 @@
 					<li><a href="#gallery">Galerie</a></li>
 					<li><a href="#services">Service</a></li>
 					<li><a href="#contact">Contact</a></li>
-					<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt="logo-instagram"></a></li>
+					<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img  width="20" height="20" decoding="async" loading="lazy" src="assets/images/instagram.png" alt="logo-instagram"></a></li>
 				</ul>
 		</nav>
 	</header>
@@ -104,11 +106,12 @@
 							sizes="100vw">
 							<source
 							media="(-webkit-max-device-pixel-ratio: 3)"
-							srcset="./assets/images/slider/3-M-1024/nina-carducci-homme-daffaire-slider-M.webp 1024w,
+							srcset="./assets/images/slider/2-S-600/nina-carducci-homme-daffaire-slider-S.webp 600w,
+									./assets/images/slider/3-M-1024/nina-carducci-homme-daffaire-slider-M.webp 1024w,
 								    ./assets/images/slider/4-L-1930/nina-carducci-homme-daffaire-slider-L.webp 1930w,
 								    ./assets/images/slider/5-XL-3860/nina-carducci-homme-daffaire-slider-XL.webp 3860w"
 							sizes="100vw">
-							<img src="./assets/images/slider/2-S-600/nina-carducci-homme-daffaire-slider-S.webp" class="d-block w-100" alt="photographe_nina_carducci_homme_noir_et_blanc">
+							<img width="1920" height="888" src="./assets/images/slider/2-S-600/nina-carducci-homme-daffaire-slider-S.webp" class="d-block w-100" alt="photographe_nina_carducci_homme_noir_et_blanc">
 						</picture>
 					</div>
 					<div class="carousel-item">
@@ -122,11 +125,12 @@
 							sizes="100vw">
 							<source
 							media="(-webkit-max-device-pixel-ratio: 3)"
-							srcset="./assets/images/slider/3-M-1024/nina-carducci-concert-slider-M.webp 1024w,
+							srcset="./assets/images/slider/2-S-600/nina-carducci-homme-daffaire-slider-S.webp 600w,
+									./assets/images/slider/3-M-1024/nina-carducci-concert-slider-M.webp 1024w,
 								    ./assets/images/slider/4-L-1930/nina-carducci-concert-slider-L.webp 1930w,
 								    ./assets/images/slider/5-XL-3860/nina-carducci-concert-slider-XL.webp 3860w"
 							sizes="100vw">
-							<img src="./assets/images/slider/2-S-600/nina-carducci-concert-slider-S.webp" class="d-block w-100" alt="photographe_nina_carducci_événement_concert">
+							<img width="1920" height="888" src="./assets/images/slider/2-S-600/nina-carducci-concert-slider-S.webp" class="d-block w-100" alt="photographe_nina_carducci_événement_concert">
 						</picture>
 					</div>
 					<div class="carousel-item">
@@ -140,11 +144,12 @@
 							sizes="100vw">
 							<source
 							media="(-webkit-max-device-pixel-ratio: 3)"
-							srcset="./assets/images/slider/3-M-1024/nina-carducci-mariage-slider-M.webp 1024w,
+							srcset="./assets/images/slider/2-S-600/nina-carducci-homme-daffaire-slider-S.webp 600w,
+									./assets/images/slider/3-M-1024/nina-carducci-mariage-slider-M.webp 1024w,
 								    ./assets/images/slider/4-L-1930/nina-carducci-mariage-slider-L.webp 1930w,
 								    ./assets/images/slider/5-XL-3860/nina-carducci-mariage-slider-XL.webp 3860w"
 							sizes="100vw">
-							<img src="./assets/images/slider/2-S-600/nina-carducci-mariage-slider-S.webp" class="d-block w-100" alt="photographe_nina_carducci_événement_mariage">
+							<img width="1920" height="888" src="./assets/images/slider/2-S-600/nina-carducci-mariage-slider-S.webp" class="d-block w-100" alt="photographe_nina_carducci_événement_mariage">
 						</picture>
 					</div>
 				</div>
@@ -171,13 +176,14 @@
 						   (max-width:650px) 72vw">
 					<source
 					media="(-webkit-max-device-pixel-ratio: 3)"
-					srcset="./assets/images/nina/nina-1120.webp 1120w"
+					srcset="./assets/images/nina/nina-560.webp 560w,
+							./assets/images/nina/nina-1120.webp 1120w"
 					sizes="(min-width:1930px) 29vw,
 						   (max-width:1929px) 29wv,
 						   (max-width:1180px) 39vw,
 						   (max-width:1000px) 40vw,
 						   (max-width:650px) 72vw">
-					<img  decoding="async" loading="lazy" src="./assets/images/nina/nina-560.webp" class="d-block w-100" alt="portrait_de_la_photographe_nina_carducci">
+					<img  width="560" height="558" decoding="async" loading="lazy" src="./assets/images/nina/nina-560.webp" class="d-block w-100" alt="portrait_de_la_photographe_nina_carducci">
 				</picture>
 			</div>
 			<div id="about-me">
@@ -191,55 +197,55 @@
 			<h2 class="title">Portfolio</h2>
 			<div class="container">
 				<div class="gallery" style="display: none">
-					<img decoding="async" loading="lazy" data-gallery-tag="Concert" class="gallery-item"
+					<img width="440" height="440" decoding="async" loading="lazy" data-gallery-tag="Concert" class="gallery-item"
 						 src="./assets/images/gallery/concerts/nina-carducci-gallery-concert-1-559.webp" alt="photographe_nina_carducci_événement_concert"
 						 srcset="./assets/images/gallery/concerts/nina-carducci-gallery-concert-1-254.webp 254w,
                                 ./assets/images/gallery/concerts/nina-carducci-gallery-concert-1-559.webp 559w,
 								./assets/images/gallery/concerts/nina-carducci-gallery-concert-1-1120.webp 1120w"
 						 sizes="(min-width:575px) 30vw, 100vw">
-					<img decoding="async" loading="lazy" data-gallery-tag="Entreprises" class="gallery-item"
+					<img width="440" height="440" decoding="async" loading="lazy" data-gallery-tag="Entreprises" class="gallery-item"
 						 src="./assets/images/gallery/entreprise/nina-carducci-gallery-entreprise-1-559.webp" alt="photographe_nina_carducci_portrait_homme_d'affaire"
 						 srcset="./assets/images/gallery/entreprise/nina-carducci-gallery-entreprise-1-254.webp 254w,
 						 		 ./assets/images/gallery/entreprise/nina-carducci-gallery-entreprise-1-559.webp 559w,
 						 		 ./assets/images/gallery/entreprise/nina-carducci-gallery-entreprise-1-1120.webp 1120w"
 						 sizes="(min-width:575px) 30vw, 100vw">
-					<img decoding="async" loading="lazy" data-gallery-tag="Entreprises" class="gallery-item"
+					<img width="440" height="440" decoding="async" loading="lazy" data-gallery-tag="Entreprises" class="gallery-item"
 					     src="./assets/images/gallery/entreprise/nina-carducci-gallery-entreprise-2-559.webp" alt="photographe_nina_carducci_environement_de_travail"
 						 srcset="./assets/images/gallery/entreprise/nina-carducci-gallery-entreprise-2-254.webp 254w,
 						 		 ./assets/images/gallery/entreprise/nina-carducci-gallery-entreprise-2-559.webp 559w,
 						 		 ./assets/images/gallery/entreprise/nina-carducci-gallery-entreprise-2-1120.webp 1120w"
 						 sizes="(min-width:575px) 30vw, 100vw">
-					<img decoding="async" loading="lazy" data-gallery-tag="Mariages" class="gallery-item"
+					<img width="440" height="440" decoding="async" loading="lazy" data-gallery-tag="Mariages" class="gallery-item"
 						 src="./assets/images/gallery/mariage/nina-carducci-gallery-mariage-1-559.webp" alt="photographe_nina_carducci_photo_main_dans_la_main"
 						 srcset="./assets/images/gallery/mariage/nina-carducci-gallery-mariage-1-254.webp 254w,
 						 		 ./assets/images/gallery/mariage/nina-carducci-gallery-mariage-1-559.webp 559w,
 						 		 ./assets/images/gallery/mariage/nina-carducci-gallery-mariage-1-1120.webp 1120w"
 						 sizes="(min-width:575px) 30vw, 100vw">
-					<img decoding="async" loading="lazy" data-gallery-tag="Portrait" class="gallery-item"
+					<img width="440" height="440" decoding="async" loading="lazy" data-gallery-tag="Portrait" class="gallery-item"
 						 src="./assets/images/gallery/portraits/nina-carducci-gallery-portrait-1-559.webp" alt="photographe_nina_carducci_portrait_homme_yeux_fermé"
 						 srcset="./assets/images/gallery/portraits/nina-carducci-gallery-portrait-1-254.webp 254w,
 						 		 ./assets/images/gallery/portraits/nina-carducci-gallery-portrait-1-559.webp 559w,
 						 		 ./assets/images/gallery/portraits/nina-carducci-gallery-portrait-1-1120.webp 1120w"
 						 sizes="(min-width:575px) 30vw, 100vw">
-					<img decoding="async" loading="lazy" data-gallery-tag="Mariages" class="gallery-item"
+					<img width="440" height="440" decoding="async" loading="lazy" data-gallery-tag="Mariages" class="gallery-item"
 						 src="./assets/images/gallery/mariage/nina-carducci-gallery-mariage-2-559.webp" alt="photographe_nina_carducci_événement_mariage"
 						 srcset="./assets/images/gallery/mariage/nina-carducci-gallery-mariage-2-254.webp 254w,
 						 		 ./assets/images/gallery/mariage/nina-carducci-gallery-mariage-2-559.webp 559w,
 						 		 ./assets/images/gallery/mariage/nina-carducci-gallery-mariage-2-1120.webp 1120w"
 						 sizes="(min-width:575px) 30vw, 100vw">
-					<img decoding="async" loading="lazy" data-gallery-tag="Portrait" class="gallery-item"
+					<img width="440" height="440" decoding="async" loading="lazy" data-gallery-tag="Portrait" class="gallery-item"
 						 src="./assets/images/gallery/portraits/nina-carducci-gallery-portrait-2-559.webp" alt="photographe_nina_carducci_portrait_jeune_femme"
 						 srcset="./assets/images/gallery/portraits/nina-carducci-gallery-portrait-2-254.webp 254w,
 						 		 ./assets/images/gallery/portraits/nina-carducci-gallery-portrait-2-559.webp 559w,
 						 		 ./assets/images/gallery/portraits/nina-carducci-gallery-portrait-2-1120.webp 1120w"
 						 sizes="(min-width:575px) 30vw, 100vw">
-					<img decoding="async" loading="lazy" data-gallery-tag="Concert" class="gallery-item"
+					<img width="440" height="440" decoding="async" loading="lazy" data-gallery-tag="Concert" class="gallery-item"
 						 src="./assets/images/gallery/concerts/nina-carducci-gallery-concert-2-559.webp" alt="photographe_nina_carducci_événement_concert"
 						 srcset="./assets/images/gallery/concerts/nina-carducci-gallery-concert-2-254.webp 254w,
                                 ./assets/images/gallery/concerts/nina-carducci-gallery-concert-2-559.webp 559w,
 								./assets/images/gallery/concerts/nina-carducci-gallery-concert-2-1120.webp 1120w"
 						 sizes="(min-width:575px) 30vw, 100vw">
-					<img decoding="async" loading="lazy" data-gallery-tag="Entreprises" class="gallery-item"
+					<img width="440" height="440" decoding="async" loading="lazy" data-gallery-tag="Entreprises" class="gallery-item"
 						 src="./assets/images/gallery/entreprise/nina-carducci-gallery-entreprise-3-559.webp" alt="photographe_nina_carducci_femme_au_travail"
 						 srcset="./assets/images/gallery/entreprise/nina-carducci-gallery-entreprise-3-254.webp 254w,
 						 		 ./assets/images/gallery/entreprise/nina-carducci-gallery-entreprise-3-559.webp 559w,
@@ -304,7 +310,7 @@
 				</form>
 			</div>
 			<div class="picture right">
-				<img decoding="async" loading="lazy" src="./assets/images/camera-460.webp" alt="un_apareil_photo"
+				<img width="418" height="418" decoding="async" loading="lazy" src="./assets/images/camera-460.webp" alt="un_apareil_photo"
 				srcset="./assets/images/camera-460.webp 460w,
 						./assets/images/camera-460.webp 920w"
 	   			sizes="(min-width:575px) 30vw, 100vw">
@@ -312,9 +318,9 @@
 		</div>
 	</footer>
 </body>
-<script async src="./assets/bootstrap/bootstrap.bundle.js"></script>
-<script async src="./assets/bootstrap/bootstrap.bundle.js"></script>
-<script async src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<!-- <script src="./assets/bootstrap/bootstrap.bundle.min.js"></script> -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script async src="./assets/maugallery.js"></script>
 <script async src="./assets/scripts.js"></script>
 </html>
