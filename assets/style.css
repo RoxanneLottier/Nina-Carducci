@@ -73,7 +73,7 @@ body {
 }
 
 img {
-	height:auto !important;
+	height:auto ;
 	max-width: 100%;
 }
 #about-me {
